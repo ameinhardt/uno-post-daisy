@@ -1,0 +1,16 @@
+<html>
+  <body>
+    <div class="test h-full flex items-center justify-center">Test</div>
+    <script type="module">
+      import 'uno.css'
+    </script>
+    <style>
+    .test {
+      @apply bg-red-500;
+      @supports (color: color-mix(in oklab, black, black)) {
+        background-color: green;
+      }
+    }
+    </style>
+  </body>
+</html>

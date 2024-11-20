@@ -1,0 +1,26 @@
+{
+  "name": "uno-post-daisy",
+  "version": "0.0.1",
+  "packageManager": "pnpm@9.13.2",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "unocss": "^0.64.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.1",
+    "@unocss/postcss": "0.64.1",
+    "postcss": "^8.4.49",
+    "postcss-nested": "^7.0.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}
